@@ -69,7 +69,7 @@ function validateDate() {
         removeErrorMessage(monthInput);
     }
 
-    if (monthInputValue > currentYear) {
+    if (yearInputValue > currentYear) {
         showErrorMessage(yearInput, "Must be in the past");
         return  false
     }else {
