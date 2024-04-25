@@ -5,33 +5,60 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
   
   <title>Frontend Mentor | Age calculator app</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
 
-  Day
-  DD
-
-  Month
-  MM
-
-  Year
-  YYYY
-
-  -- years
-  -- months
-  -- days
+  <main>
+    <div id="container">
+      <form id="formDate">
+        <div id="containerInputs">
+          <div class="containerInput" id="containerDay">
+            <label for="inputDay" class="labelInput">DAY</label>
+            <input type="number" id="inputDay" class="inputDate" placeholder="DD">
+            <span id="spanErrorDay" class="messageError error"></span>
+          </div>
+          <div class="containerInput"  id="containerMonth">
+            <label for="inputMonth" class="labelInput">MONTH</label>
+            <input type="number" id="inputMonth" class="inputDate" placeholder="MM">
+            <span id="spanErrorMonth" class="messageError error"></span>
+          </div>
+          <div class="containerInput" id="containerYear">
+            <label for="inputYear" class="labelInput">YEAR</label>
+            <input type="number" id="inputYear" class="inputDate" placeholder="YYYY">
+            <span id="spanErrorYear" class="messageError error"></span>
+          </div>
+        </div>
+        <div id="containerButton">
+          <hr id="divisionLine">
+          <button type="submit" id="buttonCalculate"><img src="./assets/images/icon-arrow.svg" alt=""></button> 
+        </div>      
+         
+      </form>
+      <section id="containerOutputs">
+        <div class="containerOutput">
+          <output id="outputYear" class="outputDate">--</output>
+          <p class="outputDateText">years</p>
+        </div>
+        <div class="containerOutput">
+          <output id="outputMonth" class="outputDate">--</output>
+          <p class="outputDateText">months</p>
+        </div>
+        <div class="containerOutput">
+          <output id="outputDay" class="outputDate">--</output>
+          <p class="outputDateText">days</p>
+        </div>
+      </section>
+    </div>
+  </main>
   
   <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. <br>
+    Coded by <a href="https://github.com/santosilva-anapaula" target="_blank">Ana Paula da Silva Santos</a>.
   </div>
+  
+  <script src="index.js"></script>
 </body>
 </html>
