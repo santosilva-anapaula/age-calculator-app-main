@@ -20,6 +20,10 @@ function handleSubmit(e) {
         outputDay.textContent = Math.abs(currentDay - inputDay.value);
         outputMonth.textContent = Math.abs(currentMonth - inputMonth.value);
         outputYear.textContent = Math.abs(currentYear - inputYear.value); 
+    }else{
+        outputDay.textContent = "--";
+        outputMonth.textContent = "--";
+        outputYear.textContent = "--"; 
     }
 }
 
