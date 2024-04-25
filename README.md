@@ -23,7 +23,7 @@ This is a solution to the [Age calculator app challenge on Frontend Mentor](http
 
 ### Links
 
-- Solution URL: [Add solution URL here]()
+- Solution URL: [Add solution URL here](https://github.com/santosilva-anapaula/age-calculator-app-main)
 - Live Site URL: [Add live site URL here]()
 
 ## My process
@@ -37,5 +37,4 @@ This is a solution to the [Age calculator app challenge on Frontend Mentor](http
 
 ## Author
 
-- Website - [Add your name here]()
 - Frontend Mentor - [@santosilva-anapaula](https://www.frontendmentor.io/profile/santosilva-anapaula)
